@@ -1,0 +1,25 @@
+.silver-line-wordmark {
+  font-family: var(--font-headline);
+  font-weight: 340;
+  letter-spacing: -0.02em;
+  line-height: 1.06;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--silver-text);
+  paint-order: stroke fill;
+}
+
+.silver-line-wordmark--sm {
+  font-size: 1.125rem;
+}
+
+.silver-line-wordmark--md {
+  font-size: 1.375rem;
+}
+
+.silver-line-wordmark--lg {
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+}
+
+.silver-line-wordmark--nav {
+  font-size: clamp(1.125rem, 2.5vw, 1.375rem);
+}

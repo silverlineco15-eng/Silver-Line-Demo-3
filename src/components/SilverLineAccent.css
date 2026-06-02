@@ -1,0 +1,19 @@
+.silver-line-accent {
+  display: flex;
+  width: 100%;
+}
+
+.silver-line-accent--center {
+  justify-content: center;
+}
+
+.silver-line-accent--left {
+  justify-content: flex-start;
+}
+
+.silver-line-accent__line {
+  display: block;
+  height: 1px;
+  background-color: var(--silver);
+  max-width: 100%;
+}
